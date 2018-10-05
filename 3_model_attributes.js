@@ -4,8 +4,6 @@ function Function3(){
         defaults: {
             name: "Best Default Website Ever",
             barcode: 3
-        },
-        initialize: function(){
         }
     });
 
