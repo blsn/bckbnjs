@@ -1,4 +1,4 @@
-function Function2(){
+function Function3(){
 
     WebsiteModel = Backbone.Model.extend({
         initialize: function(){

@@ -10,12 +10,14 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js" type="text/javascript"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.0/backbone.localStorage-min.js" type="text/javascript"></script> 
     <script src="2_introduction_to_models.js"></script>
+    <script src="3_model_attributes.js"></script>
 </head>
 <body>
     <h1>BackboneJS</h1>
     <ul>
         <li><a href="./">Installation</a></li>
-        <li><a href="2_introduction_to_models.php">2_introduction_to_models.php</a></li>
+        <li><a href="#" onclick="Function2(); return false;">2_introduction_to_models</a></li>
+        <li><a href="#" onclick="Function3(); return false;">3_model_attributes</a></li>
     </ul>
 </body>
 </html>
