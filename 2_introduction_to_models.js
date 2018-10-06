@@ -7,7 +7,6 @@ function Function2(){
     });
 
     $(document).ready(function(){
-        //alert('Hello world');
         var page_2 = new WebsiteModel();
     });
 
