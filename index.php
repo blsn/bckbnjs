@@ -28,20 +28,22 @@
         <span>Mommy and Daddy</span>
         <div>I love cake with cheese</div>
     </script>
+    <script src="11_introduction_to_collections.js"></script>
 </head>
 <body>
     <h1>BackboneJS</h1>
     <ul>
-        <li><a href="./">Installation</a></li>
-        <li><a href="#" onclick="Function2(); return false;">2_introduction_to_models</a></li>
-        <li><a href="#" onclick="Function3(); return false;">3_model_attributes</a></li>
-        <li><a href="#" onclick="Function4(); return false;">4_model_change_events</a></li>
-        <li><a href="#" onclick="Function5(); return false;">5_more_on_models</a></li>
-        <li><a href="#" onclick="Function6(); return false;">6_introduction_to_views</a></li>
+        <li><a href="./">1. installation</a></li>
+        <li><a href="#" onclick="Function2(); return false;">2 introduction to models</a></li>
+        <li><a href="#" onclick="Function3(); return false;">3 (Model) model attributes</a></li>
+        <li><a href="#" onclick="Function4(); return false;">4 (Model) model change events</a></li>
+        <li><a href="#" onclick="Function5(); return false;">5 (Model) more on models</a></li>
+        <li><a href="#" onclick="Function6(); return false;">6 introduction to views</a></li>
         <li><a href="#" onclick="Function7(); return false;">7 (Views) differerence between el and $el</a></li>
         <li><a href="#" onclick="Function8(); return false;">8 (Views) creating new HTML elements</a></li>
         <li><a href="#" onclick="Function9(); return false;">9 (Views) using the render function</a></li>
-        <li><a href="#" onclick="Function10(); return false;">10 (Views) events </a></li>
+        <li><a href="#" onclick="Function10(); return false;">10 (Views) events</a></li>
+        <li><a href="#" onclick="Function11(); return false;">11 introduction to collections</a></li>
     </ul>
     <div id="unique7"></div>
     <div id="unique8"></div>
