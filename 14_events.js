@@ -1,5 +1,5 @@
 function Function14(){
-/*
+
     StudentModel = Backbone.Model.extend({
         defaults: {
             name: "unknown"
@@ -9,25 +9,35 @@ function Function14(){
     StudentCollection = Backbone.Collection.extend({
         model: StudentModel,
         initialize: function(){
+            this.bindEvents();
+        },
+        bindEvents: function(){
+            this.on("change:name", function(model){
+                alert("The name changed to " + model.get("name"));
+            });
+            this.on("add", function(model){
+                alert("Added a new student " + model.get("name"));
+            });
+            this.on("remove", function(model){
+                alert("Removed student " + model.get("name"));
+            });
         }
     });
 
     $(document).ready(function(){
         var jony = new StudentModel({name: "jony", id: 1});
         var vicky = new StudentModel({name: "vicky", id: 2});
-        var student_group = new StudentCollection([jony, vicky]);        
-        displayCollectionContents("Before:", student_group); 
-        
-        var student = student_group.get(1);
-        student.set({name: "lopez"});
-        displayCollectionContents("After #1:", student_group); 
+        var student_group = new StudentCollection([jony]);
 
-        jony.set({name: "jony"});
-        displayCollectionContents("After #2:", student_group); 
+        student_group.add([vicky]);
+        student_group.remove([vicky]);
+        jony.set({name:"jakob"});
+
+        displayCollectionContents("After:", student_group); 
     });
 
     function displayCollectionContents(string, collection){
         console.log(string + " " + JSON.stringify(collection.toJSON()));
     };
-*/
+
 }
