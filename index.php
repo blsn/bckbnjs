@@ -31,6 +31,7 @@
     <script src="11_introduction_to_collections.js"></script>
     <script src="12_adding_and_removing_elements.js"></script>
     <script src="13_modifying_elements.js"></script>
+    <script src="14_events.js"></script>
 </head>
 <body>
     <h1>BackboneJS</h1>
@@ -48,6 +49,7 @@
         <li><a href="#" onclick="Function11(); return false;">11 introduction to collections</a></li>
         <li><a href="#" onclick="Function12(); return false;">12 (Collections) adding and removing elements</a></li>
         <li><a href="#" onclick="Function13(); return false;">13 (Collections) modifying elements</a></li>
+        <li><a href="#" onclick="Function14(); return false;">14 (Collections) events</a></li>
     </ul>
     <div id="unique7"></div>
     <div id="unique8"></div>
