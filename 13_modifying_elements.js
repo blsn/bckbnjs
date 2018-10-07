@@ -20,7 +20,10 @@ function Function13(){
         
         var student = student_group.get(1);
         student.set({name: "lopez"});
-        displayCollectionContents("After:", student_group); 
+        displayCollectionContents("After #1:", student_group); 
+
+        jony.set({name: "jony"});
+        displayCollectionContents("After #2:", student_group); 
     });
 
     function displayCollectionContents(string, collection){
