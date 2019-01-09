@@ -17,4 +17,4 @@ function Function7(){
 
 
 //var myel = this.el; // the html element, 
-//var my$el = this.$el; // ythe element but with all of the functions that jQuery provides
+//var my$el = this.$el; // the element but with all of the functions that jQuery provides
