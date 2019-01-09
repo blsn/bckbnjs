@@ -18,8 +18,8 @@
     <script src="8_creating_new_HTML_elements.js"></script>
     <script src="9_using_the_render_function.js"></script>
     <script type="text/template" id="ourTemplate9">
-        <span>9. Hello</span>
-        <span>Mommy and Daddy</span>
+        <span>9)<br></span>
+        <span>Hello mom and dad</span>
         <div>I love cake with cheese</div>
     </script>
     <script src="10_events.js"></script>
